@@ -1,0 +1,39 @@
+{
+  "name": "rglaravellib/laravel-multipart-form-data",
+  "version": "0.1.0",
+  "type": "library",
+  "license": "MIT",
+  "description": "This is multipart-form-data handler for PATCH requests.",
+  "keywords": [
+    "laravel-multipart-form-data",
+    "multipart-form-data",
+    "PATCH",
+    "form",
+    "data",
+    "Request"
+  ],
+  "homepage": "https://github.com/RicGuerra/laravel-multipart-form-data",
+  "authors": [
+    {
+      "name": "RicGuerra",
+      "homepage": "https://github.com/RicGuerra/laravel-multipart-form-data"
+    }
+  ],
+  "require": {
+    "php": "^8.0.0",
+    "laravel/framework": "^9.0 || ^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RgLaravelLib\\Laravel\\Request\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RgLaravelLib\\Tests\\Component\\HttpFoundation\\Request\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.16"
+  }
+}
